@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+body{
+    /* background-color: black; */
+}
+
+.container{
+    gap: 5px;
+    margin: 0px 5px;
+}
+
+.left{
+    width: 35vw;
+    height: 75svh;
+    background-color: #191919;
+}
+
+.right{
+    width: 65vw;
+}

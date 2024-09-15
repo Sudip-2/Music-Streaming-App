@@ -1,0 +1,27 @@
+:root{
+    --bgColor:#666666;
+    --txtColor:white;
+
+}
+.flex{
+    display: flex;
+}
+.border{
+    border: solid;
+}
+.icon{
+    height: 10px;
+}
+.bg-black{
+    background-color: var(--bgColor);
+    color: var(--txtColor);
+}
+.invert{
+    filter: invert(1);
+}
+.align-center{
+    align-items: center;
+}
+.b-1{
+    border-radius: 10px;
+}

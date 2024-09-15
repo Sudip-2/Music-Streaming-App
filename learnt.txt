@@ -1,0 +1,2 @@
+To invert the colors of an SVG in CSS, you can use the filter property with the invert() function.
+To use svg as a file we need to add xmlns

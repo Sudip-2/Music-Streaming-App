@@ -1,0 +1,186 @@
+:root {
+    --grey: #292828;
+}
+
+nav {
+    background-color: black;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+
+#spotify-logo {
+    padding: 0px 10px;
+}
+
+#home-icon-btn {
+    background-color: var(--grey);
+    border-radius: 50%;
+    padding: 8px 10px;
+    border: var(--grey);
+    cursor: pointer;
+}
+
+#home-icon {
+    height: 25px;
+}
+
+#home-icon-btn:hover {
+    transform: scale(1.03);
+}
+
+.search-bar {
+    background-color: var(--grey);
+}
+
+.search-box {
+    position: relative;
+}
+
+#nav-search-box {
+    background-color: var(--grey);
+    border: 1px solid var(--grey);
+    padding: 12px;
+    padding-left: 45px;
+    padding-right: 50px;
+    border-radius: 35px;
+    width: 24rem;
+    font-size: 1rem;
+    color: white;
+}
+
+#nav-search-box:hover {
+    background-color: rgba(66, 66, 66, 0.8);
+    cursor: pointer;
+}
+
+#nav-search-box::-webkit-search-cancel-button {
+    appearance: none;
+}
+
+.search-icon {
+    position: absolute;
+    height: 22px;
+    top: 10px;
+    left: 14px;
+    font-size: 1.2rem;
+}
+
+.partOne {
+    gap: 8px;
+}
+
+#browse-icon {
+    height: 22px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#explore {
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: transparent;
+    cursor: pointer;
+    transition: transform 0.8s;
+}
+
+#explore:hover {
+    transform: scale(1.05);
+}
+
+#install-icon {
+    height: 18px;
+}
+
+#install-btn {
+    background-color: black;
+    color: white;
+    border: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.install-btn-container {
+    gap: 5px;
+    align-items: center;
+}
+
+#install-btn:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.install-btn-container:hover {
+    transform: scale(1.02);
+}
+
+.partTwo {
+    gap: 20px;
+}
+
+#notify-icon {
+    height: 15px;
+    cursor: pointer;
+}
+
+#profilePic {
+    height: 25px;
+    padding: 0px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+/* left part's nav */
+#library-icon {
+    height: 22px;
+}
+
+#create-icon {
+    height: 20px;
+}
+
+#showMore-icon {
+    height: 20px;
+}
+
+.library {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#library-txt {
+    color: grey;
+    font-size: 1rem;
+}
+
+.librarypart {
+    gap: 10px;
+}
+
+#library-txt:hover {
+    color: rgb(196, 194, 194);
+    cursor: pointer;
+}
+
+.createShow {
+    gap: 20px;
+}
+
+.btnleftNavFilter button {
+    background-color: var(--grey);
+    border: transparent;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.btnleftNavFilter {
+    padding: 0px 15px;
+}
+
+.btnleftNavFilter button:hover {
+    cursor: pointer;
+    background-color: rgba(66, 66, 66, 0.8);
+}

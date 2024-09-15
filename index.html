@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/utility.css">
+    <link rel="stylesheet" href="./Style/nav.css">
+    <link rel="shortcut icon" href="./images/spotify-logo.webp" type="webp">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="border flex align-center">
+        <div class="partOne flex align-center">
+            <img src="./images/svg-icons/logo.svg" alt="spotify" class="invert" id="spotify-logo">
+            <button id="home-icon-btn"><img src="./images/svg-icons/home.svg" alt="home button" class=" invert "
+                    id="home-icon"></button>
+            <div class="search-box">
+                <img src="./images/svg-icons/search-icon.svg" alt="search icon" class="invert search-icon">
+                <input type="search" placeholder="What do you want to play" id="nav-search-box">
+                <img src="./images/svg-icons/browse.svg" alt="browse icon" class=" invert" id="browse-icon">
+            </div>
+
+        </div>
+        <div class="partTwo flex align-center">
+            <button id="explore">Explore Premium</button>
+            <div class="install-btn-container flex">
+                <img src="./images/svg-icons/install.svg" alt="install icon" class="invert" id="install-icon">
+                <button id="install-btn">Install App</button>
+            </div>
+            <img src="./images/svg-icons/notific.svg" alt="notification icon" class="invert" id="notify-icon">
+            <img src="./images/spotify-logo.webp" alt="ProfilePic" id="profilePic">
+        </div>
+
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Containers -->
+    <div class="container flex ">
+        <div class="left border b-1">
+            <div class="leftNav">
+                <div class="library flex">
+                    <div class="librarypart flex align-center">
+                        <img src="./images/svg-icons/library.svg" alt="library" class="icon invert" id="library-icon">
+                        <h2 id="library-txt">Your Library</h2>
+                    </div>
+                    <div class="createShow flex">
+                        <img src="./images/svg-icons/plus.svg" alt="create Playlist" class="icon invert" id="create-icon">
+                        <img src="./images/svg-icons/showmore.svg" alt="show more for playlist" class="icon invert" id="showMore-icon">
+                    </div>
+                </div>
+                <div class="btnleftNavFilter">
+                    <button>Playlist</button>
+                    <button>Artist</button>
+                    <button>Albums</button>
+                </div>
+            </div>
+        </div>
+        <div class="right border b-1">
+
+        </div>
+    </div>
+</body>
+
+</html>
