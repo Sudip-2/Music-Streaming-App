@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,21 +6,58 @@
     font-weight: 700;
 }
 
-body{
-    /* background-color: black; */
+body {
+    background-color: black;
 }
 
-.container{
+.container {
     gap: 5px;
     margin: 0px 5px;
 }
 
-.left{
+.left {
     width: 35vw;
     height: 75svh;
     background-color: #191919;
 }
 
-.right{
+.right {
     width: 65vw;
 }
+
+/* left nav artist and playlist styles */
+#artist-pfp {
+    height: 50px;
+    border-radius: 50%;
+}
+
+#artist-name {
+    color: rgb(219, 219, 219);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.name-title {
+    padding-left: 10px;
+}
+
+#artist-title {
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.artist:hover {
+    cursor: pointer;
+}
+
+.artistPlaylistContainer {
+    padding-left: 15px;
+}
+
+.artistPlaylistNav {
+    overflow: auto;
+    height: 75%;
+}
+/* left nav artist and playlist styles */

@@ -205,28 +205,11 @@ nav {
 .recent{
     gap: 10px;
 }
-#artist-pfp{
-    height: 50px;
-    border-radius: 50%;
+.leftNav{
+    height: 25%;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-#artist-name{
-    color: rgb(219, 219, 219);
-    font-size: 1.1rem;
-    font-weight: 400;
-}
-.name-title{
-    padding-left: 10px;
-}
-#artist-title{
-    color: var(--grey);
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 3px;
-}
-.artist:hover{
-    cursor: pointer;
-}
-.artistPlaylistContainer{
-    padding-left: 15px;
-    margin-top: 10px;
+.artist{
+    margin: 15px 0px;
 }
