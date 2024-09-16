@@ -1,5 +1,5 @@
 :root {
-    --grey: #292828;
+    --grey: #363636;
 }
 
 nav {
@@ -183,4 +183,50 @@ nav {
 .btnleftNavFilter button:hover {
     cursor: pointer;
     background-color: rgba(66, 66, 66, 0.8);
+}
+
+/* Left Nav scroll portion nav */
+.recentSearch{
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+#search-icon-recent{
+    height:20px;
+    filter: invert(0.5);
+}
+#recent-txt{
+    color: var(--grey);
+    font-size: 1rem;
+}
+#recent-icon{
+    height: 15px;
+    filter: invert(0.5);
+}
+.recent{
+    gap: 10px;
+}
+#artist-pfp{
+    height: 50px;
+    border-radius: 50%;
+}
+#artist-name{
+    color: rgb(219, 219, 219);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.name-title{
+    padding-left: 10px;
+}
+#artist-title{
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 3px;
+}
+.artist:hover{
+    cursor: pointer;
+}
+.artistPlaylistContainer{
+    padding-left: 15px;
+    margin-top: 10px;
 }
