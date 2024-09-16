@@ -1,5 +1,5 @@
 :root{
-    --bgColor:#666666;
+    --bgColor:#1f1f1f;
     --txtColor:white;
 
 }
@@ -7,7 +7,7 @@
     display: flex;
 }
 .border{
-    border: solid;
+    /* border: 3px solid yellow; */
 }
 .icon{
     height: 10px;

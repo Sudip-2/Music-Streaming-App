@@ -5,7 +5,7 @@
 nav {
     background-color: black;
     justify-content: space-between;
-    padding: 5px 5px;
+    padding: 8px 5px;
 }
 
 #spotify-logo {
@@ -49,7 +49,7 @@ nav {
 }
 
 #nav-search-box:hover {
-    background-color: rgba(66, 66, 66, 0.8);
+    background-color: rgba(56, 56, 56, 0.8);
     cursor: pointer;
 }
 
