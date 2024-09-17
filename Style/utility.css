@@ -25,3 +25,16 @@
 .b-1{
     border-radius: 10px;
 }
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--bgColor);  /* Dark background */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #555; 
+    border-radius: 10px;
+  }

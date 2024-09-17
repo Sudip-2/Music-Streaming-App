@@ -1,5 +1,5 @@
 :root {
-    --grey: #363636;
+    --grey: #5c5c5c;
 }
 
 nav {
@@ -13,7 +13,7 @@ nav {
 }
 
 #home-icon-btn {
-    background-color: var(--grey);
+    background-color: #1f1f1f;
     border-radius: 50%;
     padding: 8px 10px;
     border: var(--grey);
@@ -37,8 +37,8 @@ nav {
 }
 
 #nav-search-box {
-    background-color: var(--grey);
-    border: 1px solid var(--grey);
+    background-color: #1f1f1f;
+    border: 1px solid #1f1f1f;
     padding: 10px;
     padding-left: 40px;
     padding-right: 50px;

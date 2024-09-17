@@ -16,14 +16,16 @@ body {
 
 .left {
     width: 30vw;
-    height: 75svh;
+    height: 78svh;
     background-color: #191919;
 }
 
 .right {
     width: 70vw;
-    height: 75svh;
-    background-color: #222222;
+    height: 78svh;
+    background-color: #191919;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 /* left nav artist and playlist styles */
@@ -43,7 +45,7 @@ body {
     font-size: 0.9rem;
 }
 
-.artist{
+.artist {
     margin: 15px 0px;
 }
 
@@ -67,62 +69,115 @@ body {
     height: 75%;
 }
 
-#playlist-pfp{
+#playlist-pfp {
     height: 40px;
     width: 40px;
     border-radius: 15px;
 }
 
-#playlist-name{
+#playlist-name {
     color: rgb(219, 219, 219);
     font-size: 0.9rem;
     font-weight: 400;
 }
 
-#playlist-title{
+#playlist-title {
     color: var(--grey);
     font-size: 0.9rem;
     font-weight: 400;
     margin-top: 3px;
 }
-.playlist{
+
+.playlist {
     margin: 15px 0px;
 }
+
 /* left nav artist and playlist styles */
 
 /* right nav pop artist part*/
 
-.popArtist{
-    padding: 35px 17px;
+.popArtist {
+    padding: 25px 17px;
 }
 
-.popartistcard{
-    border: 2px red solid;
-    width: 180px;
-    height: 240px;
+.popartistcard {
+    /* border: 2px red solid; */
+    width: 130px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     /* padding: 0px 10px; */
+    border-radius: 10px;
+    position: relative;
 }
 
-#pop-artist-heading,#pop-artist-name{
+.popartistcard:hover{
+    cursor: pointer;
+    background-color: rgba(56, 56, 56, 0.3);
+    border-radius: 10px;
+}
+
+#pop-artist-heading,
+#pop-artist-name {
     color: white;
 }
 
-#popartistpfp{
-    width: 150px;
+#pop-artist-name{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#popartistpfp {
+    width: 110px;
     border-radius: 50%;
 }
 
-#pop-artist-title{
+#popartistpfp:hover{
+    
+}
+
+#pop-artist-title {
     color: var(--grey);
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
-.pop-artist-name-title{
-    padding-left:10px ;
+.pop-artist-name-title {
+    padding-left: 10px;
 }
 
-.pop-artists-container{
-    margin: 25px 0px;
+.pop-artists-container {
+    margin: 20px 0px;
+    /* border: 1px solid yellow; */
+    /* gap: 10px; */
+    overflow: auto;
+}
+
+.pop-artist-image-container{
+    justify-content: center;
+}
+
+.spotify-button {
+    width: 40px;
+    height: 40px;
+    background-color: #1DB954; /* Spotify green */
+    border-radius: 50%; /* Makes the button circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
+    /* opacity: 0; */
+    position: absolute;
+    left: 80px;
+    top: 74px;
+}
+
+.spotify-button .play-icon {
+    width: 0;
+    height: 0;
+    border-left: 15px solid black; /* Black play triangle */
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
 }
