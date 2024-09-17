@@ -5,7 +5,7 @@
 nav {
     background-color: black;
     justify-content: space-between;
-    padding: 8px 5px;
+    padding: 5px 5px;
 }
 
 #spotify-logo {
@@ -21,7 +21,7 @@ nav {
 }
 
 #home-icon {
-    height: 25px;
+    height: 20px;
 }
 
 #home-icon-btn:hover {
@@ -39,12 +39,12 @@ nav {
 #nav-search-box {
     background-color: var(--grey);
     border: 1px solid var(--grey);
-    padding: 12px;
-    padding-left: 45px;
+    padding: 10px;
+    padding-left: 40px;
     padding-right: 50px;
     border-radius: 35px;
     width: 24rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: white;
 }
 
@@ -60,8 +60,8 @@ nav {
 .search-icon {
     position: absolute;
     height: 22px;
-    top: 10px;
-    left: 14px;
+    top: 8px;
+    left: 12px;
     font-size: 1.2rem;
 }
 
@@ -72,7 +72,7 @@ nav {
 #browse-icon {
     height: 22px;
     position: absolute;
-    top: 12px;
+    top: 9px;
     right: 20px;
     cursor: pointer;
 }
@@ -133,26 +133,31 @@ nav {
 }
 
 /* left part's nav */
+.leftNav{
+    height: 25%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 #library-icon {
     height: 22px;
 }
 
 #create-icon {
-    height: 20px;
+    height: 13px;
 }
 
 #showMore-icon {
-    height: 20px;
+    height: 13px;
 }
 
 .library {
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 #library-txt {
     color: grey;
-    font-size: 1rem;
+    font-size: 0.85rem;
 }
 
 .librarypart {
@@ -171,9 +176,11 @@ nav {
 .btnleftNavFilter button {
     background-color: var(--grey);
     border: transparent;
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-radius: 20px;
     color: white;
+    font-weight: 400;
+    font-size:0.8rem ;
 }
 
 .btnleftNavFilter {
@@ -188,28 +195,22 @@ nav {
 /* Left Nav scroll portion nav */
 .recentSearch{
     justify-content: space-between;
-    padding: 15px 20px;
+    padding: 0px 20px;
+    padding-top: 10px;
 }
 #search-icon-recent{
-    height:20px;
+    height:15px;
     filter: invert(0.5);
 }
 #recent-txt{
     color: var(--grey);
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-weight: 00;
 }
 #recent-icon{
-    height: 15px;
+    height: 12px;
     filter: invert(0.5);
 }
 .recent{
     gap: 10px;
-}
-.leftNav{
-    height: 25%;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.artist{
-    margin: 15px 0px;
 }

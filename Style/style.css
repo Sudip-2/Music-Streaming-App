@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    font-weight: 700;
 }
 
 body {
@@ -17,29 +16,35 @@ body {
 
 .left {
     width: 30vw;
-    height: 80svh;
+    height: 75svh;
     background-color: #191919;
 }
 
 .right {
     width: 70vw;
+    height: 75svh;
     background-color: #222222;
 }
 
 /* left nav artist and playlist styles */
 #artist-pfp {
-    height: 50px;
+    height: 40px;
     border-radius: 50%;
 }
 
 #artist-name {
     color: rgb(219, 219, 219);
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
 .name-title {
     padding-left: 10px;
+    font-size: 0.9rem;
+}
+
+.artist{
+    margin: 15px 0px;
 }
 
 #artist-title {
@@ -63,22 +68,25 @@ body {
 }
 
 #playlist-pfp{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 15px;
 }
 
 #playlist-name{
     color: rgb(219, 219, 219);
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
 #playlist-title{
     color: var(--grey);
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     margin-top: 3px;
+}
+.playlist{
+    margin: 15px 0px;
 }
 /* left nav artist and playlist styles */
 
@@ -89,7 +97,7 @@ body {
 }
 
 .popartistcard{
-    /* border: 2px red solid; */
+    border: 2px red solid;
     width: 180px;
     height: 240px;
     display: flex;
@@ -117,5 +125,4 @@ body {
 
 .pop-artists-container{
     margin: 25px 0px;
-    /* gap: 10px; */
 }
